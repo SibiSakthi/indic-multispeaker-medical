@@ -1,0 +1,701 @@
+[
+    {
+        "case_id": 1,
+        "scenario": "Consultation for common cold and fever",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு இரண்டு நாட்களாக காய்ச்சல் மற்றும் லேசான இருமல் உள்ளது. உணவு விழுங்கும் போது தொண்டை வலி உள்ளதாக குறிப்பிடுகிறார்.\nObjective (மருத்துவக் கணிப்பு): உடல் வெப்பநிலை 101 டிகிரி ஃபாரன்ஹீட். தொண்டையில் லேசான சிவப்பு நிறம் காணப்படுகிறது.\nAssessment (நோய் நிர்ணயம்): வைரஸ் தொற்று மற்றும் தொண்டை அழற்சி.\nPlan (சிகிச்சைத் திட்டம்): பாராசிட்டமால் மற்றும் ஆன்டிபயாடிக் மருந்துகள் மூன்று நாட்களுக்கு பரிந்துரைக்கப்பட்டுள்ளது. உணவுக்குப் பின் மாத்திரைகளை உட்கொள்ள அறிவுறுத்தப்பட்டுள்ளது. வெதுவெதுப்பான நீரில் உப்பு கலந்து வாய் கொப்பளிக்க கூறப்பட்டுள்ளது.",
+        "gold_transcript": "வணக்கம், சொல்லுங்க உங்களுக்கு என்ன தொந்தரவு? ரெண்டு நாளா ஃபீவர்-ஆ இருக்கு டாக்டர். கூடவே லேசான காஃப் இருக்கு. சரி, டெம்பரேச்சர் செக் பண்ணலாம். 101 இருக்கு. த்ரோட் பெயின் எதுவும் இருக்கா? ஆமாம் டாக்டர், முழுங்கும் போது பெயின் இருக்கு. பயப்பட வேண்டாம், இது வைரல் இன்ஃபெக்‌ஷன் தான். தொண்டையில கொஞ்சம் வீக்கம் இருக்கு. நான் 3 நாளைக்கு ஆன்டிபயாடிக்ஸ்-உம் பாராசிட்டமால்-உம் எழுதி தரேன். டோஸேஜ் எப்படி டாக்டர் எடுக்கணும்? காலைல ஒன்னு, நைட் ஒன்னு சாப்பிட்ட பிறகு எடுத்துக்கோங்க. சுடு தண்ணில உப்பு போட்டு வாய் கொப்பளிங்க.",
+        "pipeline_transcript": "வணக்கம் சொல்லுங்க உங்களுக்கு என்ன தொந்தரவு ரெண்டு நான் காலா ஃபீவரா இருக்கு டாக்டர் கூடவே லேசான காஃ இருக்கு சரி டெம்பரேச்சர் செக் பண்ணலாம் நூற்று ஒன்று இருக்கு த்ரோட் பெயின் எதுவும் இருக்கா மா ஆமா பயம் டாக்டர் முழுங்கும் போது பெயின் இருக்கு பயம் கயப்பட வேண்டாம் இது வைரல் இன்ஃபெக்ஷன் தான் தொண்டையில கொஞ்சம் வீக்கம் இருக்கு நான் மூன்று நாளைக்கு ோஸ் ஆன்டிபயாடிக்ஸும் பாராசிட்டமாலும் எழுதி தரேன் டோஸ் காசேஜ எப்படி டாக்டர் எடுக்கணும் கால",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 6.08,
+                "transcript": "வணக்கம் சொல்லுங்க உங்களுக்கு என்ன தொந்தரவு ரெண்டு நான்",
+                "translation": "What is the idea that I have for you to tell the story?"
+            },
+            {
+                "speaker": "spk1",
+                "start": 5.88,
+                "end": 13.84,
+                "transcript": "காலா ஃபீவரா இருக்கு டாக்டர் கூடவே லேசான காஃ இருக்கு சரி",
+                "translation": "Calla Fevera Rukku Doktor Kuthave Leshan Kauf Rukku Siri."
+            },
+            {
+                "speaker": "spk0",
+                "start": 13.64,
+                "end": 23.92,
+                "transcript": "டெம்பரேச்சர் செக் பண்ணலாம் நூற்று ஒன்று இருக்கு த்ரோட் பெயின் எதுவும் இருக்கா",
+                "translation": "The demperature check point is the distance between one end and the end of the thread."
+            },
+            {
+                "speaker": "spk0",
+                "start": 23.72,
+                "end": 24.32,
+                "transcript": "மா ஆமா",
+                "translation": "मा आमा"
+            },
+            {
+                "speaker": "spk1",
+                "start": 24.12,
+                "end": 29.36,
+                "transcript": "பயம் டாக்டர் முழுங்கும் போது பெயின் இருக்கு பயம்",
+                "translation": "When the load is on the conductor, the load is on the pedal."
+            },
+            {
+                "speaker": "spk0",
+                "start": 29.16,
+                "end": 39.44,
+                "transcript": "கயப்பட வேண்டாம் இது வைரல் இன்ஃபெக்ஷன் தான் தொண்டையில கொஞ்சம் வீக்கம் இருக்கு நான் மூன்று நாளைக்கு",
+                "translation": "Suppose this is the viral inference that there is a certain amount of amplitude along which I move three times."
+            },
+            {
+                "speaker": "spk0",
+                "start": 39.24,
+                "end": 45.28,
+                "transcript": "ோஸ் ஆன்டிபயாடிக்ஸும் பாராசிட்டமாலும் எழுதி தரேன் டோஸ்",
+                "translation": "Zos Antibiotics Paracetamol Therapy Therane Dos"
+            },
+            {
+                "speaker": "spk1",
+                "start": 45.08,
+                "end": 49.2,
+                "transcript": "காசேஜ எப்படி டாக்டர் எடுக்கணும் கால",
+                "translation": "When will the gauges pick up the DACTOR?"
+            }
+        ]
+    },
+    {
+        "case_id": 2,
+        "scenario": "Follow-up check for hypertension",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு நேற்று முதல் லேசான தலைசுற்றல் உள்ளது. முந்தைய நாள் உயர் இரத்த அழுத்தத்திற்கான மாத்திரையை உட்கொள்ள மறந்துவிட்டதாக கூறுகிறார்.\nObjective (மருத்துவக் கணிப்பு): இரத்த அழுத்தம் 150/95 மி.மீ பாதரசம். நாடித் துடிப்பு சீராக உள்ளது.\nAssessment (நோய் நிர்ணயம்): உயர் இரத்த அழுத்தம். மாத்திரை உட்கொள்ளாததால் ஏற்பட்ட தற்காலிக தலைசுற்றல்.\nPlan (சிகிச்சைத் திட்டம்): வழக்கமான உயர் இரத்த அழுத்த மருந்துகளைத் தொடர்ந்து உட்கொள்ள அறிவுறுத்தப்பட்டுள்ளது. மாத்திரைகளைத் தவறாமல் உட்கொள்ள வேண்டும் என வலியுறுத்தப்பட்டுள்ளது. உணவில் உப்பைக் குறைத்துக் கொள்ளப் பரிந்துரைக்கப்பட்டுள்ளது.",
+        "gold_transcript": "டாக்டர், எனக்கு நேத்துல இருந்து கொஞ்சம் தலை சுத்துது. உங்களோட ப்ளட் ப்ரெஷர் செக் பண்ணிடலாம். உக்காருங்களேன். உங்களோட பிபி 150/95 இருக்கு. மாத்திரை கரெக்டா போடுறீங்களா? நேத்து ஹைப்பர்டென்ஷன் மாத்திரை போட மறந்துட்டேன் டாக்டர். அதனால தான் டிஸ்ஸினெஸ் இருக்கு. டோஸேஜ் எப்போவும் மிஸ் பண்ண கூடாது. ப்ளட் ப்ரெஷர் அதிகமாக வாய்ப்பு இருக்கு. சாரி டாக்டர், இனிமேல் கரெக்டா போட்டுக்குறேன். சரி, அதே மாத்திரையை கண்டினியூ பண்ணுங்க. உப்பு கம்மியா சாப்பிடுங்க. ஒரு வாரம் கழிச்சு மறுபடியும் செக்-அப் வாங்க.",
+        "pipeline_transcript": "டாக்டர் எனக்கு நேத்துல இருந்து கொஞ்சம் தலை சுத்துது உங்க உோட பிளட் பிரஷர் செக் பண்ணிடலாம் உட்காருங்களேன் உங்களோட பி பி நூற்று ஐம்பது இின் கீழ் தொண்ணூற்று ட்ரெண்ட இருக்கு மாத்திரை கரெக்டா போடுறீங்களா நேத்து அ ஹைப்பர் டென்ஷன் மாத்திரை போட மறந்துட்டேன் டாக்டர் அதன னால தான் டிஸ்ினஸ் இருக்கு டோசேஜ் எப்போவும் மிஸ் பண்ணக்கூடாது ட்ட் பிரஷர் அதிகமாக வாய்ப்பு இருக்கு ச சா சாரி டாக்டர் இனிமேல் கரெக்டா போட்டுக்கிறேன் சரி சரி அதே மாத்திரையே கண்டினியூ பண்ணுங்க உப்பு கம்மியா சாப்பிடுங்க ஒரு வாரம் கழிச்சு மறுபடியும் செகவாங்க",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 6.24,
+                "transcript": "டாக்டர் எனக்கு நேத்துல இருந்து கொஞ்சம் தலை சுத்துது உங்க",
+                "translation": "I was waiting for the doctor to open the door for you."
+            },
+            {
+                "speaker": "spk1",
+                "start": 6.04,
+                "end": 16.24,
+                "transcript": "உோட பிளட் பிரஷர் செக் பண்ணிடலாம் உட்காருங்களேன் உங்களோட பி பி நூற்று ஐம்பது இின் கீழ் தொண்ணூற்று",
+                "translation": "Let us say you have a bolt pressure check."
+            },
+            {
+                "speaker": "spk1",
+                "start": 16.04,
+                "end": 22.72,
+                "transcript": "ட்ரெண்ட இருக்கு மாத்திரை கரெக்டா போடுறீங்களா நேத்து",
+                "translation": "Do you want to ride a motorcycle on a train?"
+            },
+            {
+                "speaker": "spk0",
+                "start": 22.52,
+                "end": 28.48,
+                "transcript": "அ ஹைப்பர் டென்ஷன் மாத்திரை போட மறந்துட்டேன் டாக்டர் அதன",
+                "translation": "That is the hiper tension mother boat and then the dacoit."
+            },
+            {
+                "speaker": "spk1",
+                "start": 28.28,
+                "end": 36.8,
+                "transcript": "னால தான் டிஸ்ினஸ் இருக்கு டோசேஜ் எப்போவும் மிஸ் பண்ணக்கூடாது ட்ட்",
+                "translation": "If you have a disease, when will the dosage be?"
+            },
+            {
+                "speaker": "spk2",
+                "start": 36.6,
+                "end": 39.36,
+                "transcript": "பிரஷர் அதிகமாக வாய்ப்பு இருக்கு",
+                "translation": "The pressure is very high."
+            },
+            {
+                "speaker": "spk1",
+                "start": 39.16,
+                "end": 40.88,
+                "transcript": "ச சா",
+                "translation": "स शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा शा ।"
+            },
+            {
+                "speaker": "spk0",
+                "start": 40.68,
+                "end": 46.08,
+                "transcript": "சாரி டாக்டர் இனிமேல் கரெக்டா போட்டுக்கிறேன் சரி",
+                "translation": "सारी डाक्टर एनिमेल करेक्टा बोडुगे में शारी दाक्तर एनिमेल करेक्टा बोडुंगे में शारी सारी है ।"
+            },
+            {
+                "speaker": "spk1",
+                "start": 45.88,
+                "end": 56.16,
+                "transcript": "சரி அதே மாத்திரையே கண்டினியூ பண்ணுங்க உப்பு கம்மியா சாப்பிடுங்க ஒரு வாரம் கழிச்சு மறுபடியும் செகவாங்க",
+                "translation": "Okay in the same way continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous continuous"
+            }
+        ]
+    },
+    {
+        "case_id": 3,
+        "scenario": "Routine check for Type 2 Diabetes",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு புதிய அறிகுறிகள் ஏதுமில்லை. வழக்கமான நீரிழிவு பரிசோதனைக்காக வந்துள்ளார்.\nObjective (மருத்துவக் கணிப்பு): வெறும் வயிற்றில் இரத்த சர்க்கரை அளவு 140 மி.கி/டெ.லி. உடல் எடை சீராக உள்ளது.\nAssessment (நோய் நிர்ணயம்): டைப் 2 நீரிழிவு நோய் - ஓரளவு கட்டுப்பாட்டில் உள்ளது.\nPlan (சிகிச்சைத் திட்டம்): தற்போதைய நீரிழிவு மாத்திரைகளைத் தொடரவும். இனிப்புப் பண்டங்களைத் தவிர்க்கவும் மற்றும் தினசரி உடற்பயிற்சி செய்யவும் அறிவுறுத்தப்பட்டுள்ளது.",
+        "gold_transcript": "வாங்க, எப்போ லேப்-ல ப்ளட் டெஸ்ட் கொடுத்தீங்க? காலையில கொடுத்தேன் டாக்டர். ஃபாஸ்டிங் ப்ளட் சுகர் ரிப்போர்ட் வந்துடுச்சு. ரிப்போர்ட்டை காட்டுங்க. ஓகே, 140 இருக்கு. கொஞ்சம் அதிகம். டயட் கண்ட்ரோல் பண்றீங்களா? ஆமா டாக்டர், ஆனா போன வாரம் ஒரு விசேஷத்துல கொஞ்சம் இனிப்பு சாப்பிட்டேன். அதுதான் சுகர் லெவல் ஏறியிருக்கு. டயாபடீஸ் பொறுத்தவரைக்கும் டயட் ரொம்ப முக்கியம். பழைய ப்ரிஸ்கிரிப்ஷன்-ஐ அப்படியே கண்டினியூ பண்ணுங்க. வாக்கிங் போகணுமா டாக்டர்? கண்டிப்பா, தினமும் 30 நிமிஷம் எக்சர்சைஸ் பண்ணுங்க. மூணு மாசம் கழிச்சு மறுபடியும் டெஸ்ட் பண்ணலாம்.",
+        "pipeline_transcript": "வாங்க எப்போ லே பிள பிள டெஸ்ட் கொடுத்தீங்க காலையில் ல கொடுத்தேன் டாக்டர் ாஸ்டிங் பிளட் சுகர் ரிப்போர்ட் வந்துடுச்சு ரிப்போர் கோட்டை காட்டுங்க ஓகி நூற்று நாற்பது இருக்கு கொஞ்சம் அதிகம் டய்ட் கண்ட்ரோல் பண்றீங்கள் ஆம அ டாக்டர் ஆனா போன வாரம் ஒரு விசேஷத்துல கொஞ்சம் இனிப்பு சாப்பிட்டேன் துதான் சுகர் லெவல் ஏறி இருக்கு டயாபடிஸ் பொறுத்தவரைக்கும் டயட் ரொம்ப முக்கியம் பழைய பிரிஸ்கிரிப்ஷனை வாக்கி அப்படியே கண்டினியூ பண்ணுங்க வாக்கி நீ போகணுமா டாக்டர் கண்டி",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 5.44,
+                "transcript": "வாங்க எப்போ லே பிள பிள டெஸ்ட் கொடுத்தீங்க காலையில்",
+                "translation": "When are you going to have a good day?"
+            },
+            {
+                "speaker": "spk1",
+                "start": 5.24,
+                "end": 13.28,
+                "transcript": "ல கொடுத்தேன் டாக்டர் ாஸ்டிங் பிளட் சுகர் ரிப்போர்ட் வந்துடுச்சு ரிப்போர்",
+                "translation": "लेक्टेन डाक्टर आस्टिंग बल्ड सुगर रिपोर्ड वंतुश्यु रिपोर"
+            },
+            {
+                "speaker": "spk0",
+                "start": 13.08,
+                "end": 23.36,
+                "transcript": "கோட்டை காட்டுங்க ஓகி நூற்று நாற்பது இருக்கு கொஞ்சம் அதிகம் டய்ட் கண்ட்ரோல் பண்றீங்கள்",
+                "translation": "There is a distance between the line and the distance between the line and the end of the line."
+            },
+            {
+                "speaker": "spk0",
+                "start": 23.16,
+                "end": 25.28,
+                "transcript": "ஆம",
+                "translation": "हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम हम है ।"
+            },
+            {
+                "speaker": "spk1",
+                "start": 25.08,
+                "end": 33.36,
+                "transcript": "அ டாக்டர் ஆனா போன வாரம் ஒரு விசேஷத்துல கொஞ்சம் இனிப்பு சாப்பிட்டேன்",
+                "translation": "That daktar aana bon vaaram is a special kind of gift."
+            },
+            {
+                "speaker": "spk0",
+                "start": 33.16,
+                "end": 43.44,
+                "transcript": "துதான் சுகர் லெவல் ஏறி இருக்கு டயாபடிஸ் பொறுத்தவரைக்கும் டயட் ரொம்ப முக்கியம் பழைய பிரிஸ்கிரிப்ஷனை",
+                "translation": "It is the sugar level that gives the diabetic patient the ability to maintain a healthy weight."
+            },
+            {
+                "speaker": "spk0",
+                "start": 43.24,
+                "end": 47.68,
+                "transcript": "வாக்கி அப்படியே கண்டினியூ பண்ணுங்க வாக்கி",
+                "translation": "Walking according to Continue Reading Walking"
+            },
+            {
+                "speaker": "spk2",
+                "start": 47.48,
+                "end": 50.88,
+                "transcript": "நீ போகணுமா டாக்டர் கண்டி",
+                "translation": "ने बोगनुमा टाक्टर कंडी"
+            }
+        ]
+    },
+    {
+        "case_id": 4,
+        "scenario": "Consultation for Acid Peptic Disease (GERD)",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): இரண்டு வாரங்களாக நெஞ்செரிச்சல் மற்றும் வயிறு உப்புசம் இருப்பதாக நோயாளி கூறுகிறார். காரமான உணவுகளை உட்கொண்ட பின் அறிகுறிகள் அதிகமாகிறது.\nObjective (மருத்துவக் கணிப்பு): வயிற்றின் மேல் பகுதியில் லேசான அழுத்தம் கொடுத்தால் வலி உள்ளது. மற்ற உடல் அளவீடுகள் சீராக உள்ளன.\nAssessment (நோய் நிர்ணயம்): இரைப்பை அமில பின்னடைவு நோய் (GERD).\nPlan (சிகிச்சைத் திட்டம்): ஆன்டாசிட் சிரப் மற்றும் பேன்டோப்ரசோல் மாத்திரைகள் இரண்டு வாரங்களுக்குப் பரிந்துரைக்கப்பட்டுள்ளன. காரமான மற்றும் வறுத்த உணவுகளைத் தவிர்க்கவும், சரியான நேரத்திற்கு உணவு உட்கொள்ளவும் அறிவுறுத்தப்பட்டுள்ளது.",
+        "gold_transcript": "டாக்டர், எனக்கு ரெண்டு வாரமா நெஞ்செரிச்சல் அதிகமா இருக்கு. சாப்பிட்ட உடனே அசிடிட்டி ப்ராப்ளம் இருக்கா? வயிறு உப்புசமா ஃபீல் பண்றீங்களா? ஆமா டாக்டர். கொஞ்சம் காரமா சாப்பிட்டா ஸ்டொமக் பெயின் வருது. உங்களுக்கு கேஸ்ட்ரிக் இரிடேஷன் இருக்கு. ஸ்பைஸி ஃபுட் மற்றும் எண்ணெயில் பொரித்த உணவுகளை அவாய்ட் பண்ணுங்க. இதுக்கு மருந்து இருக்கா டாக்டர்? நான் ஒரு ஆன்டாசிட் சிரப்-உம், காலையில வெறும் வயித்துல போட ஒரு மாத்திரையும் தரேன். 15 டேய்ஸ் எடுத்துக்கோங்க.",
+        "pipeline_transcript": "டாக்டர் எனக்கு ரெண்டு வாரமா நெஞ்சிரிச்சல் அதிகமாாய இருக்கு ஆம்ம்பிட்ட உடனே அசடிட்டி ப்ராப்ளம் இருக்கா வயிறு உப்புசமா பீல் பண்றீங்களா ஆம் அமா டாக்டர் கொஞ்சம் காரமா சாப்பிட்டா ஸ்டொமக் பெயின் வருது உங்க உங்களுக்கு கேஸ்ட்ரிக் இரிடேஷன் இருக்கு ஸ்பைசி ஃபுட் மற்றும் எண்ணெயில் பொரித்த உணவுகளை அவாய்ட் பண்ணுங்க க்கு இதுக்கு மருந்து இருக்கா டாக்டர் நான் ஒரு ஏழு ஆண்டாசிட் சிறப்பும் காலையில வெறும் வயத்தில போட ஒரு மாத்திரையும் தரேன் பதினைந்து டேஸ் ஏழு",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 6.8,
+                "transcript": "டாக்டர் எனக்கு ரெண்டு வாரமா நெஞ்சிரிச்சல் அதிகமாாய இருக்கு",
+                "translation": "The DACTOR is greater than the RENDU WARMA NENCHRISSAL."
+            },
+            {
+                "speaker": "spk1",
+                "start": 6.6,
+                "end": 15.44,
+                "transcript": "ஆம்ம்பிட்ட உடனே அசடிட்டி ப்ராப்ளம் இருக்கா வயிறு உப்புசமா பீல் பண்றீங்களா ஆம்",
+                "translation": "Ampid immediately there will be acidic vapour and if there is excess vapour, you will see that there will be excess vapour and you will see that there will be excess vapour and you will see that there will be excess vapour and you will see that there will be excess vapour in the air."
+            },
+            {
+                "speaker": "spk0",
+                "start": 15.24,
+                "end": 22.96,
+                "transcript": "அமா டாக்டர் கொஞ்சம் காரமா சாப்பிட்டா ஸ்டொமக் பெயின் வருது உங்க",
+                "translation": "आमा डाक्टर कोंचम कारमा सापबित्ता स्तोमक पेयिने वरुत हैं ।"
+            },
+            {
+                "speaker": "spk1",
+                "start": 22.76,
+                "end": 33.04,
+                "transcript": "உங்களுக்கு கேஸ்ட்ரிக் இரிடேஷன் இருக்கு ஸ்பைசி ஃபுட் மற்றும் எண்ணெயில் பொரித்த உணவுகளை அவாய்ட் பண்ணுங்க",
+                "translation": "Use the data that you have in case you have a cardiac irradiation, in case you have a spicy food, and in case you don't."
+            },
+            {
+                "speaker": "spk1",
+                "start": 32.84,
+                "end": 33.6,
+                "transcript": "க்கு இதுக்கு",
+                "translation": "क्यों के लिए होते होते होते होते होते होते होते होते होते होते होते होते होते होते होते है ।"
+            },
+            {
+                "speaker": "spk0",
+                "start": 33.4,
+                "end": 37.44,
+                "transcript": "மருந்து இருக்கா டாக்டர் நான் ஒரு",
+                "translation": "Another dacoit, I am one of them."
+            },
+            {
+                "speaker": "spk2",
+                "start": 37.24,
+                "end": 46.88,
+                "transcript": "ஏழு ஆண்டாசிட் சிறப்பும் காலையில வெறும் வயத்தில போட ஒரு மாத்திரையும் தரேன் பதினைந்து டேஸ் ஏழு",
+                "translation": "Because at the time of antacid deposition, at different intervals of time, there is a constant distance between the head and the body."
+            }
+        ]
+    },
+    {
+        "case_id": 5,
+        "scenario": "Consultation for Tension Headache",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு மூன்று நாட்களாக தலைவலி உள்ளது. வேலை பளு காரணமாக மன அழுத்தம் உள்ளதாக கூறுகிறார்.\nObjective (மருத்துவக் கணிப்பு): நரம்பியல் பரிசோதனைகள் இயல்பாக உள்ளன. பார்வை குறைபாடு இல்லை. இரத்த அழுத்தம் 120/80.\nAssessment (நோய் நிர்ணயம்): மன அழுத்தத்தினால் ஏற்படும் தலைவலி (Tension Headache).\nPlan (சிகிச்சைத் திட்டம்): வலி நிவாரணி மாத்திரைகள் தேவைப்படும் போது மட்டும் உட்கொள்ளப் பரிந்துரைக்கப்பட்டுள்ளது. போதிய அளவு தூக்கம் மற்றும் மன அழுத்தத்தைக் குறைப்பதற்கான வழிமுறைகளைப் பின்பற்ற அறிவுறுத்தப்பட்டுள்ளது.",
+        "gold_transcript": "உங்களுக்கு எப்போல இருந்து ஹெட்டேக் இருக்கு? ஒரு மூணு நாளா தொடர்ந்து இருக்கு டாக்டர். தலையை சுத்தி இறுக்கமா இருக்கிற மாதிரி ஒரு பெயின். கண் பார்வைல ஏதாவது பிளர்ரினெஸ் இருக்கா? இல்ல வாந்தி வர மாதிரி இருக்கா? அதெல்லாம் இல்ல டாக்டர். ஆனா ஆபிஸ்ல கொஞ்சம் ஸ்ட்ரெஸ் அதிகம். சரியா தூங்கல. இது டென்ஷன் ஹெட்டேக் தான். கவலைப்பட ஒன்னுமில்ல. நான் பெயின்கில்லர் தரேன், வலி அதிகமா இருந்தா மட்டும் போடுங்க. சைட் எஃபெக்ட்ஸ் எதுவும் வராதே டாக்டர்? அடிக்கடி போட்டா தான் அல்சர் வரும். நல்லா ரெஸ்ட் எடுங்க, 8 ஹவர்ஸ் ஸ்லீப் ரொம்ப முக்கியம்.",
+        "pipeline_transcript": "உங்களுக்கு எப்போல இருந்து ஹெட்டேக் இருக்கு ஒரு மூணு நாளா தொடர்ந்து இருக்கு டாக்டர் தலையை சுத்தி எறுக்கமா இருக்கிற மாதிரி ஒரு பெயின் கண்ப ப பே அத ஏதாவது பிடர்ினஸ் இருக்கா இல்ல வாந்தி வர மாதிரி இருக்கா அதில் எல்லாம் இல்ல டாக்டர் ஆனா ஆபீஸ்ல கொஞ்சம் ஸ்ட்ரெஸ் அதிகம் சரியா தூங்கல இது இது ஒன்ன டென்ஷன் ஹெட்டை தான் கவலைப்பட ஒன்னு கில் நமில்லை நான் பெயன் கில் செயலர் தரேன் வலி அதிகமாாய இருந்தா மட்டும் போடுங்க செயட் ் எஃபெக்ட்ஸ் எதுவும் வராதே டாக்டர் அடிக்கல்",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 4.8,
+                "transcript": "உங்களுக்கு எப்போல இருந்து ஹெட்டேக் இருக்கு ஒரு",
+                "translation": "You have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this, you have something like this."
+            },
+            {
+                "speaker": "spk1",
+                "start": 4.6,
+                "end": 14.8,
+                "transcript": "மூணு நாளா தொடர்ந்து இருக்கு டாக்டர் தலையை சுத்தி எறுக்கமா இருக்கிற மாதிரி ஒரு பெயின் கண்ப",
+                "translation": "The view of a piece of material that has a sharp angle to the tail of the tractor when it is facing the front door."
+            },
+            {
+                "speaker": "spk1",
+                "start": 14.6,
+                "end": 15.2,
+                "transcript": "ப பே",
+                "translation": "पे पे पे लिए पे पे लिए पे पे लिए पे लिए पे लिए पे लिए पे लिए पे लिए पे लिए पे लिए पे लिए पे लिए पे लिये पे लिए पे लिये पे लिये पे लिये पे लिये पे पे लिये पे लिये पे पे लिये पे पे लिये पे लिये पे लिये पे पे लिये पे लिये पे लिये पे पे लिये पे पे लिये पे पे"
+            },
+            {
+                "speaker": "spk0",
+                "start": 15.0,
+                "end": 22.88,
+                "transcript": "அத ஏதாவது பிடர்ினஸ் இருக்கா இல்ல வாந்தி வர மாதிரி இருக்கா அதில்",
+                "translation": "That is because in the case of Peter's ruka illa vanathi vara maathiri ruka."
+            },
+            {
+                "speaker": "spk1",
+                "start": 22.68,
+                "end": 32.96,
+                "transcript": "எல்லாம் இல்ல டாக்டர் ஆனா ஆபீஸ்ல கொஞ்சம் ஸ்ட்ரெஸ் அதிகம் சரியா தூங்கல",
+                "translation": "Allam illa daktar aana apesla konsam stresh adikam saariya thoongkala"
+            },
+            {
+                "speaker": "spk1",
+                "start": 32.76,
+                "end": 33.36,
+                "transcript": "இது இது",
+                "translation": "This is this"
+            },
+            {
+                "speaker": "spk0",
+                "start": 33.16,
+                "end": 37.44,
+                "transcript": "ஒன்ன டென்ஷன் ஹெட்டை தான் கவலைப்பட ஒன்னு",
+                "translation": "A tension head is one that is designed to"
+            },
+            {
+                "speaker": "spk1",
+                "start": 37.24,
+                "end": 39.36,
+                "transcript": "கில் நமில்லை நான் பெயன் கில்",
+                "translation": "Kil Namillai Naan Peyan Kil"
+            },
+            {
+                "speaker": "spk0",
+                "start": 39.16,
+                "end": 45.28,
+                "transcript": "செயலர் தரேன் வலி அதிகமாாய இருந்தா மட்டும் போடுங்க செயட்",
+                "translation": "Sailor Dhiren Wali was the highest and the only boat was the Cheyyad."
+            },
+            {
+                "speaker": "spk2",
+                "start": 45.08,
+                "end": 49.68,
+                "transcript": "் எஃபெக்ட்ஸ் எதுவும் வராதே டாக்டர் அடிக்கல்",
+                "translation": "No matter what the effects are, the doctor will take care of it."
+            }
+        ]
+    },
+    {
+        "case_id": 6,
+        "scenario": "Consultation for Lower Back Pain",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு கடந்த ஒரு வாரமாக கீழ் முதுகு வலி உள்ளது. நீண்ட நேரம் நாற்காலியில் அமர்ந்து வேலை செய்வதால் வலி ஏற்படுவதாகக் கூறுகிறார்.\nObjective (மருத்துவக் கணிப்பு): கீழ் முதுகில் தசை பிடிப்பு காணப்படுகிறது. கால்களில் மரத்துப்போகும் உணர்வு இல்லை.\nAssessment (நோய் நிர்ணயம்): தசைப் பிடிப்பு மற்றும் கீழ் முதுகு வலி.\nPlan (சிகிச்சைத் திட்டம்): தசை தளர்த்தி மற்றும் வலி நிவாரணி மாத்திரைகள் 5 நாட்களுக்குப் பரிந்துரைக்கப்பட்டுள்ளது. சுடுநீர் ஒத்தடம் கொடுக்கவும், கனமான பொருட்களைத் தூக்க வேண்டாம் எனவும் அறிவுறுத்தப்பட்டுள்ளது.",
+        "gold_transcript": "டாக்டர், குனிஞ்சு நிமிரும் போது லோவர் பேக் பெயின் ரொம்ப இருக்கு. கால்ல ஏதாவது மரத்து போற மாதிரி நம்னெஸ் இருக்கா? இல்ல டாக்டர், முதுகுல மட்டும் தான் வலி. நான் ஐடி கம்பெனி-ல இருக்கேன், கண்டினியூவஸ்ஸா சிஸ்டம் முன்னாடி உக்காந்துருப்பேன். தொடர்ந்து உக்காந்து வேலை செய்றதால வந்த மஸில் ஸ்பாஸம் தான் இது. நான் மஸில் ரிலாக்ஸன்ட் மற்றும் ஆயின்ட்மென்ட் எழுதி தரேன். வேலைக்கு லீவ் போடணுமா டாக்டர்? ரொம்ப ஸ்ட்ரெயின் பண்ண வேண்டாம். சுடு தண்ணி ஒத்தடம் கொடுங்க. தொடர்ந்து உக்காராம, நடுவுல பிரேக் எடுத்து கொஞ்சம் நடங்க.",
+        "pipeline_transcript": "டாக்டர் குனிஞ்சு நிமிரும் போோது லோவர் பேக் பெயின் ரொம்ப இருக்கு காந்த ஏதாவது மரத்து போற மாதிரி நம்லஸ் இருக்கா இல்ல டா உக்க டாக்டர் முதுகுல மட்டும்தான் வலி நான் ஐடி கம்பெனில இருக்கேன் கண்டனியூவஸா சிஸ்டம் முன்னாடி உக்க தார்ந்திருப்பேன் தொடர்ந்து ட்டு உட்கார்ந்து வேலை செய்ததால வந்த மசில் ஸ்பாசம்தான் இது நான் மசில் ரிலாக்சன்ட் மற்றும் ஆயண்ட்மென்ட் எழுதிவிட்டு ரை வே வேன் பிள்ளைக்கு லீவ் போடணுமா டாக்டர் ரொம்ப உப்பஸ்ட்ரெயின் பண்ண வேண்டாம் சுடு தண்ணி ஒத்தடம் கொடுங்கே",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 6.88,
+                "transcript": "டாக்டர் குனிஞ்சு நிமிரும் போோது லோவர் பேக் பெயின் ரொம்ப இருக்கு காந்த",
+                "translation": "Doktor Kuningchu Nimrum Baothu Lover Baek Peiin Romba Rungkho was born."
+            },
+            {
+                "speaker": "spk1",
+                "start": 6.68,
+                "end": 12.48,
+                "transcript": "ஏதாவது மரத்து போற மாதிரி நம்லஸ் இருக்கா இல்ல டா",
+                "translation": "Because at the time of death, the mother is not there."
+            },
+            {
+                "speaker": "spk0",
+                "start": 12.28,
+                "end": 22.56,
+                "transcript": "உக்க டாக்டர் முதுகுல மட்டும்தான் வலி நான் ஐடி கம்பெனில இருக்கேன் கண்டனியூவஸா சிஸ்டம் முன்னாடி உக்க",
+                "translation": "Before your DACTOR, I was in IT company, I was in KANTANIYUVSHA SYSTEM, MUNNADI."
+            },
+            {
+                "speaker": "spk0",
+                "start": 22.36,
+                "end": 25.28,
+                "transcript": "தார்ந்திருப்பேன் தொடர்ந்து",
+                "translation": "तारन्तिरुपेन तोरन्तु"
+            },
+            {
+                "speaker": "spk2",
+                "start": 25.08,
+                "end": 35.36,
+                "transcript": "ட்டு உட்கார்ந்து வேலை செய்ததால வந்த மசில் ஸ்பாசம்தான் இது நான் மசில் ரிலாக்சன்ட் மற்றும் ஆயண்ட்மென்ட் எழுதிவிட்டு",
+                "translation": "This is the muscle spasm that is created by the work done by the machine and I have written the muscle relaxant and the ointment."
+            },
+            {
+                "speaker": "spk2",
+                "start": 35.16,
+                "end": 35.76,
+                "transcript": "ரை",
+                "translation": ""
+            },
+            {
+                "speaker": "spk1",
+                "start": 35.56,
+                "end": 37.44,
+                "transcript": "வே வேன்",
+                "translation": "वें वें हैं ।"
+            },
+            {
+                "speaker": "spk0",
+                "start": 37.24,
+                "end": 41.28,
+                "transcript": "பிள்ளைக்கு லீவ் போடணுமா டாக்டர் ரொம்ப",
+                "translation": "Flow to the plane is given by the DACTOR ROMBA"
+            },
+            {
+                "speaker": "spk2",
+                "start": 41.08,
+                "end": 47.04,
+                "transcript": "உப்பஸ்ட்ரெயின் பண்ண வேண்டாம் சுடு தண்ணி ஒத்தடம் கொடுங்கே",
+                "translation": "The output of the hubbub window is the same as the output of the window window."
+            }
+        ]
+    },
+    {
+        "case_id": 7,
+        "scenario": "Consultation for Allergic Rhinitis",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு காலையில் எழுந்தவுடன் தொடர்ச்சியான தும்மல் மற்றும் மூக்கில் நீர் வடிதல் உள்ளது.\nObjective (மருத்துவக் கணிப்பு): நாசித் துவாரங்களில் சளி சவ்வு வீக்கம் காணப்படுகிறது. காய்ச்சல் இல்லை.\nAssessment (நோய் நிர்ணயம்): ஒவ்வாமை நாசியழற்சி (Allergic Rhinitis).\nPlan (சிகிச்சைத் திட்டம்): ஆன்டிஹிஸ்டமைன் மாத்திரைகள் ஒரு வாரத்திற்குப் பரிந்துரைக்கப்பட்டுள்ளது. தூசியைத் தவிர்க்கவும், வெளியே செல்லும் போது முகக்கவசம் அணியவும் அறிவுறுத்தப்பட்டுள்ளது.",
+        "gold_transcript": "சொல்லுங்க, என்ன ப்ராப்ளம்? காலையில எழுந்ததும் கண்டினியூவஸ் ஸ்னீஸிங் இருக்கு டாக்டர். மூக்குல தண்ணியா ஒழுகுது. வீட்டுல டஸ்ட் அலர்ஜி ஏதாவது இருக்கா? இல்ல ஏசி-ல தொடர்ந்து தூங்குறீங்களா? ஆமா டாக்டர், டூ வீலர்ல போகும்போது டஸ்ட் பட்டா ரொம்ப அலர்ஜி ஆகுது. உங்களுக்கு அலர்ஜிக் ரினைடிஸ் இருக்கு. நான் ஆன்டிஹிஸ்டமைன் மாத்திரை தரேன். ராத்திரி தூங்குறதுக்கு முன்னாடி ஒன்னு போடுங்க. இது போட்டா தூக்கம் வருமா டாக்டர்? லேசா ட்ரௌஸினெஸ் இருக்கும், அதனால தான் நைட் போட சொல்றேன். வெளிய போகும்போது மாஸ்க் யூஸ் பண்ணுங்க.",
+        "pipeline_transcript": "சொல்லுங்க என்ன ப்ராப்ளம் காலை தட்டில எழுந்ததும் கண்டினியுவ ஸ்னீசிங் இருக்கு டாக்டர் மூக்குல தண்ணியா ஒழுகுது வீட்டில் ஆல டஸ்ட் அலர்ஜி ஏதாவது இருக்கா இல்ல ஏே சில தொடர்ந்து தூங்குறீங்களா ஆம ல்லமா டாக்டர் டூ வீலர்ல உங்கள் போகும்போது டஸ்ட் பட்டா ரொம்ப அலர்ஜி ஆகுது உங்கள் முன்னர்களுக்கு அலர்ஜ க நெடைசி இருக்கு நான் ஆண்டு ஹிஸ்டமன் மாத்திரை தரேன் ராத்திரை தூங்குிறதுக்கு முன்னண பாடி ஒன்னு போடுங்க இது லேஸ் போட்டா தூக்கம் வருமா டாக்டர் லேஸ்",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 3.68,
+                "transcript": "சொல்லுங்க என்ன ப்ராப்ளம் காலை",
+                "translation": "What is the problem with saying"
+            },
+            {
+                "speaker": "spk1",
+                "start": 3.48,
+                "end": 13.12,
+                "transcript": "தட்டில எழுந்ததும் கண்டினியுவ ஸ்னீசிங் இருக்கு டாக்டர் மூக்குல தண்ணியா ஒழுகுது வீட்டில்",
+                "translation": "There is continuous snatching at the tip of the snout and the dotter is at the tip of the snout at the tip of the snout."
+            },
+            {
+                "speaker": "spk0",
+                "start": 12.92,
+                "end": 21.76,
+                "transcript": "ஆல டஸ்ட் அலர்ஜி ஏதாவது இருக்கா இல்ல ஏே சில தொடர்ந்து தூங்குறீங்களா ஆம",
+                "translation": "But if there is no dust allergy why are you throwing some dust?"
+            },
+            {
+                "speaker": "spk1",
+                "start": 21.56,
+                "end": 24.0,
+                "transcript": "ல்லமா டாக்டர் டூ வீலர்ல",
+                "translation": "ल्लमा दाक्तर दू वेलर्ला"
+            },
+            {
+                "speaker": "spk2",
+                "start": 23.8,
+                "end": 29.52,
+                "transcript": "உங்கள் போகும்போது டஸ்ட் பட்டா ரொம்ப அலர்ஜி ஆகுது உங்கள்",
+                "translation": "You have an allergy to dust butta rhomba when you go"
+            },
+            {
+                "speaker": "spk0",
+                "start": 29.32,
+                "end": 39.6,
+                "transcript": "முன்னர்களுக்கு அலர்ஜ க நெடைசி இருக்கு நான் ஆண்டு ஹிஸ்டமன் மாத்திரை தரேன் ராத்திரை தூங்குிறதுக்கு முன்னண",
+                "translation": "The first one has an allergic reaction and the third one has an allergic reaction."
+            },
+            {
+                "speaker": "spk0",
+                "start": 39.4,
+                "end": 42.72,
+                "transcript": "பாடி ஒன்னு போடுங்க இது",
+                "translation": "Badi one bodega this is"
+            },
+            {
+                "speaker": "spk2",
+                "start": 42.52,
+                "end": 46.56,
+                "transcript": "லேஸ் போட்டா தூக்கம் வருமா டாக்டர் லேஸ்",
+                "translation": "लेस बोड़ा तुक्म वरुमा ताक्तर लेस"
+            }
+        ]
+    },
+    {
+        "case_id": 8,
+        "scenario": "Consultation for Acute Gastroenteritis",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு நேற்று இரவு முதல் வயிற்றுப்போக்கு மற்றும் லேசான வயிற்று வலி உள்ளது. நேற்று வெளியே உணவு உண்டதாகக் கூறுகிறார்.\nObjective (மருத்துவக் கணிப்பு): நோயாளி லேசான நீர்ச்சத்து குறைபாட்டுடன் காணப்படுகிறார். நாக்கு வறண்டுள்ளது. இரத்த அழுத்தம் 110/70.\nAssessment (நோய் நிர்ணயம்): குடல் அழற்சி (Acute Gastroenteritis).\nPlan (சிகிச்சைத் திட்டம்): ORS கரைசல் குடிக்க அறிவுறுத்தப்பட்டுள்ளது. வயிற்றுப்போக்கை நிறுத்தவும், வயிற்று வலியைப் போக்கவும் மருந்துகள் வழங்கப்பட்டுள்ளன. எளிதில் செரிக்கக்கூடிய உணவுகளை உண்ணப் பரிந்துரைக்கப்பட்டுள்ளது.",
+        "gold_transcript": "நேத்து நைட்ல இருந்து லூஸ் மோஷன் போயிட்டே இருக்கு டாக்டர். ரொம்ப டயர்டா இருக்கு. வெளிய எதுவும் சாப்பிட்டீங்களா? வாந்தி எதுவும் இருக்கா? வாந்தி இல்ல டாக்டர், ஆனா வயிறு வலிக்கிது. நேத்து ஹோட்டல்ல சாப்பிட்டேன், அதுக்கு அப்பறம் தான் இப்படி ஆச்சு. ஃபுட் பாய்சனிங் ஆகிருக்கு. டிஹைட்ரேஷன் ஆகாம பாத்துக்கணும். நிறைய தண்ணி குடிங்க. மாத்திரை ஏதாவது தர முடியுமா டாக்டர்? கண்டிப்பா, இன்ஃபெக்‌ஷன் குறைய டேப்லெட் தரேன். கூடவே ஓஆர்எஸ் பவுடர் தரேன், அதை தண்ணில கலந்து அடிக்கடி குடிங்க. கஞ்சி மட்டும் சாப்பிடுங்க.",
+        "pipeline_transcript": "நேத்து நைட்ல இருந்து லூஸ் மோஷன் போயிட்டே இருக்கு டாக்டர் ரொம்ப டயர்டா இருக்கு வெளிய வாய எதுவும் சாப்பிட்டீங்களா வாந்து எதுவும் இருக்கா வாாய காந்தி இல்ல டாக்டர் ஆனா வயிறு வலிக்குது நேத்து ஹோட்டல்ல சாப்பிட்டேன் அதுக்கு அப்புறம்தான் இப்படி ப ஆச்சு ஃபுட் பத் ்சங் ஆகிருக்கு டிஹைட்ரேஷன் ஆகாம பார்த்துக்கணும் நிறைய தண்ணி குடிங்க மா பத்திர ஏதாவது தர முடியுமா டாக்டர் கண்டித்து அடித்துத்தா இன்ஃபெக்ஷன் குறைய டேப்லெட் தரேன் கூடவே வாரஸ் பவுடர் தரேன் அதை தண்ணில கலந்து அடித்து",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 9.44,
+                "transcript": "நேத்து நைட்ல இருந்து லூஸ் மோஷன் போயிட்டே இருக்கு டாக்டர் ரொம்ப டயர்டா இருக்கு வெளிய",
+                "translation": "It is clear that there is a loss motion from the right side to the left side of the doctor's rhomba diaphragm."
+            },
+            {
+                "speaker": "spk1",
+                "start": 9.24,
+                "end": 16.0,
+                "transcript": "வாய எதுவும் சாப்பிட்டீங்களா வாந்து எதுவும் இருக்கா வாாய",
+                "translation": "Waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            {
+                "speaker": "spk0",
+                "start": 15.8,
+                "end": 26.08,
+                "transcript": "காந்தி இல்ல டாக்டர் ஆனா வயிறு வலிக்குது நேத்து ஹோட்டல்ல சாப்பிட்டேன் அதுக்கு அப்புறம்தான் இப்படி",
+                "translation": "If you don't have a tractor or a vehicle, you don't need a hotel."
+            },
+            {
+                "speaker": "spk0",
+                "start": 25.88,
+                "end": 28.48,
+                "transcript": "ப ஆச்சு ஃபுட் பத்",
+                "translation": "P ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+            },
+            {
+                "speaker": "spk1",
+                "start": 28.28,
+                "end": 38.48,
+                "transcript": "்சங் ஆகிருக்கு டிஹைட்ரேஷன் ஆகாம பார்த்துக்கணும் நிறைய தண்ணி குடிங்க மா",
+                "translation": "Let us look at dehydration for the first time and find out the best solution."
+            },
+            {
+                "speaker": "spk0",
+                "start": 38.28,
+                "end": 43.2,
+                "transcript": "பத்திர ஏதாவது தர முடியுமா டாக்டர் கண்டித்து",
+                "translation": "Patthir why did Thar Mutiuma Dakhter win?"
+            },
+            {
+                "speaker": "spk1",
+                "start": 43.0,
+                "end": 53.28,
+                "transcript": "அடித்துத்தா இன்ஃபெக்ஷன் குறைய டேப்லெட் தரேன் கூடவே வாரஸ் பவுடர் தரேன் அதை தண்ணில கலந்து அடித்து",
+                "translation": "That is based on the inference that the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the smaller the tablet, the bigger the tablet, the bigger the tablet, the bigger the tablet, the bigger the tablet, the bigger the tablet, the bigger the tablet, the bigger the tablet, and the bigger the tablet."
+            }
+        ]
+    },
+    {
+        "case_id": 9,
+        "scenario": "Follow-up for Asthma and Inhaler Refill",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): நோயாளிக்கு ஆஸ்துமா உள்ளது. தற்போது மூச்சு விடுவதில் சிரமம் உள்ளதாகவும், இன்ஹேலர் தீர்ந்துவிட்டதாகவும் கூறுகிறார்.\nObjective (மருத்துவக் கணிப்பு): மார்புப் பகுதியில் ஸ்டெதாஸ்கோப் மூலம் பரிசோதித்ததில் லேசான மூச்சுத்திணறல் (Wheezing) சத்தம் கேட்கிறது.\nAssessment (நோய் நிர்ணயம்): மூச்சுக்குழாய் ஆஸ்துமா - தற்போதைய நிலையில் இன்ஹேலர் தேவை.\nPlan (சிகிச்சைத் திட்டம்): புதிய இன்ஹேலர் பரிந்துரைக்கப்பட்டுள்ளது. மூச்சுத்திணறல் ஏற்படும் போது பயன்படுத்த அறிவுறுத்தப்பட்டுள்ளது. குளிர்ச்சியான பானங்களைத் தவிர்க்கக் கூறப்பட்டுள்ளது.",
+        "gold_transcript": "உங்களுக்கு ஆஸ்துமா பிரச்சனை எப்போல இருந்து இருக்கு? அஞ்சு வருஷமா இருக்கு டாக்டர். இப்போ கொஞ்சம் மூச்சு விட சிரமமா இருக்கு. இன்ஹேலர் காலி ஆகிடுச்சு. சரி, நான் செக் பண்றேன். மூச்ச நல்லா இழுத்து விடுங்க. கொஞ்சம் வீஸிங் சத்தம் கேக்குது. பழைய ப்ரிஸ்கிரிப்ஷன்-ல இருந்த அதே இன்ஹேலர் எழுதி தரீங்களா டாக்டர்? ஆமா, அதே ப்ராங்கோடைலேட்டர் இன்ஹேலர் எழுதி தரேன். மூச்சு திணறல் வரும்போது மட்டும் யூஸ் பண்ணுங்க. பனி காலத்துல ரொம்ப கஷ்டமா இருக்கு டாக்டர். சளி பிடிக்காம பாத்துக்கோங்க. கோல்ட் ஐட்டம்ஸ் எதையும் சாப்பிடாதீங்க.",
+        "pipeline_transcript": "உங்களுக்கு ஆசுமா பிரச்சினை எப்போல இருந்து இருக்கு அஞ்சு வருஷம் நிமா இருக்கு டாக்டர் இப்போ கொஞ்சம் மூச்சு விட சிரமமாய இருக்கு இன்ஹேலர் காலி ஆகிடுச்சு சரி சரி நான் செக் பண்றேன் மூச்சை நல்லா இழுத்து விடுங்க கொஞ்சம் பீசிங் சத்தம் கேட்கது ப இந்தியா பிரிஸ்கிரிப்ஷன்ல இருந்த அதே இன் ஹலர் எழுதி தரியீங்களா டாக்டர் ஆமா மா அதே பிராங்கோடை லேட்டர் இன்ஹேலர் எழுதித் தரேன் மூச்சு திணறல் வரும்போது மட்டும் யூஸ் பண்ணுங்க ப பானி காலத்துல ரொம்ப கஷ்டமா இருக்கு டாக்டர் சலிப்பு",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 6.08,
+                "transcript": "உங்களுக்கு ஆசுமா பிரச்சினை எப்போல இருந்து இருக்கு அஞ்சு வருஷம்",
+                "translation": "What is the expected interest rate for you?"
+            },
+            {
+                "speaker": "spk1",
+                "start": 5.88,
+                "end": 16.08,
+                "transcript": "நிமா இருக்கு டாக்டர் இப்போ கொஞ்சம் மூச்சு விட சிரமமாய இருக்கு இன்ஹேலர் காலி ஆகிடுச்சு",
+                "translation": "Nima Irukku Daktar Ibo Konsam Musachu Vita Seramayi Irukku Inhaler Kaali Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Inhaler Kaali Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku Irukku."
+            },
+            {
+                "speaker": "spk1",
+                "start": 15.88,
+                "end": 17.84,
+                "transcript": "சரி சரி",
+                "translation": "सरी सरी"
+            },
+            {
+                "speaker": "spk0",
+                "start": 17.64,
+                "end": 27.6,
+                "transcript": "நான் செக் பண்றேன் மூச்சை நல்லா இழுத்து விடுங்க கொஞ்சம் பீசிங் சத்தம் கேட்கது ப",
+                "translation": "I have to find out the moisture content of the soil, the moisture content of the soil, the amount of moisture in the soil, the amount of moisture in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, the amount of water in the soil, and the amount of water in the soil."
+            },
+            {
+                "speaker": "spk2",
+                "start": 27.4,
+                "end": 30.4,
+                "transcript": "இந்தியா பிரிஸ்கிரிப்ஷன்ல இருந்த அதே இன்",
+                "translation": "This is the same one which was under revision."
+            },
+            {
+                "speaker": "spk1",
+                "start": 30.2,
+                "end": 34.48,
+                "transcript": "ஹலர் எழுதி தரியீங்களா டாக்டர் ஆமா",
+                "translation": "Haller Luthhi Thariye Dhaaktar Aama"
+            },
+            {
+                "speaker": "spk0",
+                "start": 34.28,
+                "end": 44.56,
+                "transcript": "மா அதே பிராங்கோடை லேட்டர் இன்ஹேலர் எழுதித் தரேன் மூச்சு திணறல் வரும்போது மட்டும் யூஸ் பண்ணுங்க",
+                "translation": "Maw the same line the latter inhaler lift the train when it comes to the muzzle lift and add the juice."
+            },
+            {
+                "speaker": "spk0",
+                "start": 44.36,
+                "end": 45.28,
+                "transcript": "ப பானி",
+                "translation": "Paani"
+            },
+            {
+                "speaker": "spk1",
+                "start": 45.08,
+                "end": 50.24,
+                "transcript": "காலத்துல ரொம்ப கஷ்டமா இருக்கு டாக்டர் சலிப்பு",
+                "translation": "Talk to the doctor when there is a cold sore"
+            }
+        ]
+    },
+    {
+        "case_id": 10,
+        "scenario": "Consultation for Mild Osteoarthritis (Knee Pain)",
+        "gold_clinical_note": "Subjective (நோயாளி அறிக்கை): முதிய நோயாளிக்கு இரண்டு முழங்கால்களிலும் நடக்கும் போதும், படி ஏறும் போதும் வலி உள்ளது.\nObjective (மருத்துவக் கணிப்பு): முழங்கால் மூட்டுகளில் வீக்கம் இல்லை, ஆனால் அசைக்கும் போது லேசான சத்தம் (Crepitus) கேட்கிறது. மூட்டு அசைவு வரம்பு சற்று குறைந்துள்ளது.\nAssessment (நோய் நிர்ணயம்): ஆரம்ப நிலை முழங்கால் மூட்டுத் தேய்மானம் (Mild Osteoarthritis).\nPlan (சிகிச்சைத் திட்டம்): வலி நிவாரணி களிம்பு மற்றும் கால்சியம் மாத்திரைகள் பரிந்துரைக்கப்பட்டுள்ளன. பிசியோதெரபி பயிற்சிகள் செய்யவும், அதிக பளு தூக்குவதைத் தவிர்க்கவும் அறிவுறுத்தப்பட்டுள்ளது. எக்ஸ்ரே (X-ray) எடுக்கப் பரிந்துரைக்கப்பட்டுள்ளது.",
+        "gold_transcript": "டாக்டர், கொஞ்ச நாளா நடக்கும் போது நீ பெயின் ரொம்ப இருக்கு. படி ஏற முடியல. வயசாகுவதால வர்ற மூட்டு தேய்மானம் தான் இது. ஜாயிண்ட்-ல வீக்கம் எதுவும் இல்ல. எக்ஸ்-ரே எடுத்து பாத்தா சரியா தெரியும். ஆபரேஷன் எதுவும் பண்ணனுமா டாக்டர்? அதெல்லாம் இப்போதைக்கு தேவையில்ல. இது ஆரம்ப கட்ட ஆஸ்டியோஆர்த்ரைடிஸ் தான். நான் ஒரு ஆயின்ட்மென்ட் தரேன், அதை மூட்டுல தடவுங்க. வேற என்ன பண்ணனும் டாக்டர்? கால்சியம் மாத்திரை தரேன், தினமும் ஒன்னு போடுங்க. கீழ உக்கார வேண்டாம், வெஸ்டர்ன் டாய்லெட் யூஸ் பண்ணுங்க. பிசியோதெரபி செஞ்சா நல்ல இம்ப்ரூவ்மென்ட் இருக்கும்.",
+        "pipeline_transcript": "டாக்டர் கொஞ்ச நாளா நடக்கும்போது நீ பெயின் ரொம்ப இருக்கு படி ஏற முடியல வயசாகவதால வர்ற மூட்டு தேய்மானம தான் இது ஜாயிண்ட்ல வேீக்கம் எதுவும் இல் எக்ஸ்ரே எடுத்து பார்த்தா ஆப சரியா தெரியும் ஆபத் ஆப்பரேஷன் எதுவும் பண்ணணுமா டாக்டர் அதெல்லாம் இது இப்போதைக்கு தேவையில்லை இது இது ஆரம்ப கட்ட ஆஸ்டியோர்தரெடிஸ்தான் நான் ஒரு ஆயண்டுமெல் தரேன் அதை மூட்டுலத் தடவுங்க தே தேே ச்ச என்ன பண்ணனும் டாக்டர் கல்ச்சர் தஷயம் மாத்திரை தரு தரேன் தினமும் ஒன்னு போடுங்க கீழே உட்கார வேண்டாம் வெஸ்டர்ன் டாய்லெட் யூஸ் பண்ணுங்க பிசியோதரபி செ்சால் நல்ல இம்ப்ரூவ்மென்ட் இருக்கும்",
+        "diarized_segments": [
+            {
+                "speaker": "spk0",
+                "start": 0,
+                "end": 9.52,
+                "transcript": "டாக்டர் கொஞ்ச நாளா நடக்கும்போது நீ பெயின் ரொம்ப இருக்கு படி ஏற முடியல",
+                "translation": "You may not be able to keep up with the pace of work when the doctor stops talking to you."
+            },
+            {
+                "speaker": "spk1",
+                "start": 9.32,
+                "end": 19.6,
+                "transcript": "வயசாகவதால வர்ற மூட்டு தேய்மானம தான் இது ஜாயிண்ட்ல வேீக்கம் எதுவும் இல் எக்ஸ்ரே எடுத்து பார்த்தா",
+                "translation": "This is the maximum speed that can be taken without any delay, can you see that this is the maximum speed that can be taken?"
+            },
+            {
+                "speaker": "spk1",
+                "start": 19.4,
+                "end": 22.48,
+                "transcript": "ஆப சரியா தெரியும் ஆபத்",
+                "translation": "Aap saariya theriyum aapth"
+            },
+            {
+                "speaker": "spk0",
+                "start": 22.28,
+                "end": 27.2,
+                "transcript": "ஆப்பரேஷன் எதுவும் பண்ணணுமா டாக்டர் அதெல்லாம்",
+                "translation": "Whether the operation is performed by the doctor or not"
+            },
+            {
+                "speaker": "spk2",
+                "start": 27.0,
+                "end": 29.76,
+                "transcript": "இது இப்போதைக்கு தேவையில்லை இது",
+                "translation": "This is not required at the moment."
+            },
+            {
+                "speaker": "spk1",
+                "start": 29.56,
+                "end": 39.84,
+                "transcript": "இது ஆரம்ப கட்ட ஆஸ்டியோர்தரெடிஸ்தான் நான் ஒரு ஆயண்டுமெல் தரேன் அதை மூட்டுலத் தடவுங்க",
+                "translation": "This is a rhombic osteoarthritis, I am an osteoarthritic, I am an osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic, I am osteoarthritic."
+            },
+            {
+                "speaker": "spk1",
+                "start": 39.64,
+                "end": 40.32,
+                "transcript": "தே தேே",
+                "translation": "तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो तो"
+            },
+            {
+                "speaker": "spk0",
+                "start": 40.12,
+                "end": 44.0,
+                "transcript": "ச்ச என்ன பண்ணனும் டாக்டர் கல்ச்சர்",
+                "translation": "What is the function of S _ (c) and D _ (akt), D _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt), K _ (akt)."
+            },
+            {
+                "speaker": "spk1",
+                "start": 43.8,
+                "end": 45.12,
+                "transcript": "தஷயம் மாத்திரை தரு",
+                "translation": "Find the true value"
+            },
+            {
+                "speaker": "spk2",
+                "start": 44.92,
+                "end": 45.6,
+                "transcript": "தரேன்",
+                "translation": "तरें के लिए तरें होते होते होते होते होते होते होते होते होते होते होते होते होते होते है ।"
+            },
+            {
+                "speaker": "spk1",
+                "start": 45.4,
+                "end": 47.04,
+                "transcript": "தினமும் ஒன்னு",
+                "translation": "The third one is"
+            },
+            {
+                "speaker": "spk2",
+                "start": 46.84,
+                "end": 57.12,
+                "transcript": "போடுங்க கீழே உட்கார வேண்டாம் வெஸ்டர்ன் டாய்லெட் யூஸ் பண்ணுங்க பிசியோதரபி செ்சால் நல்ல இம்ப்ரூவ்மென்ட் இருக்கும்",
+                "translation": "There will be a lot of improvement in the boat's length, height, ventilation, tailgate use, occupational therapy, and so on."
+            }
+        ]
+    }
+]
